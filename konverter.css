@@ -1,0 +1,42 @@
+.container{
+    margin: 0 auto;
+    width: max-content;
+}
+.main-content{
+    display: flex;
+    gap:123px;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.currency-wrapper{
+    display: flex;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+.single-currency{
+    cursor: pointer;
+    width: 62px;
+    height: 28px;
+    color: #c6c6c6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.single-currency-active {
+  background-color: #833ae0;
+  color: #fff;
+ 
+}
+.amount-wrapper {
+    border: 1px solid #e5e5e5;
+    padding: 11px 14px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+.input-amount {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom:20px;
+    border: none;
+}
